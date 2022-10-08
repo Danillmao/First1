@@ -12,7 +12,7 @@ namespace Year
 
             str = Console.ReadLine();
             a = Convert.ToInt32(str);
-            if (a % 4 == 0)
+            if (a % 4 == 0 & a / 400 != 0 || a / 100 == 0)
             {
                 Console.WriteLine("Високосный год");
             }
