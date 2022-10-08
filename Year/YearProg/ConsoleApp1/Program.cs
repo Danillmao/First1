@@ -14,11 +14,11 @@ namespace Year
             a = Convert.ToInt32(str);
             if (a % 4 == 0 & a / 400 != 0 || a / 100 == 0)
             {
-                Console.WriteLine("Високосный год interface");
+                Console.WriteLine("Високосный год");
             }
             else
             {
-                Console.WriteLine("Невисокосный год interface");
+                Console.WriteLine("Невисокосный год");
             }
 
         }
